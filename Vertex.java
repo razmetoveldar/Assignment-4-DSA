@@ -6,7 +6,7 @@ public class Vertex<T> {
 
     public Vertex(T data){
         this.data = data;
-        adjacentVertices = new HashMap<>();
+        adjacentVertices = new HashMap<>(); // adjacentVertices = new LinkedHashMap<>();
     }
 
     public T getData(){
